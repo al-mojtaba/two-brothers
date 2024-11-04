@@ -24,7 +24,7 @@ const fetchFun = async (urlname) => {
   
   if (trading.positions[0] !== undefined) {
     if (tradingData[`openP-${urlname}`] !== trading.positions[0].id) {
-      discord_req(trading.positions[0]);
+      discord_req(JSON.stringify(trading.positions[0]));
       tradingData[`openP-${urlname}`] = trading.positions[0].id;
     }
   }
