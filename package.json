@@ -1,0 +1,10 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "script knows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
